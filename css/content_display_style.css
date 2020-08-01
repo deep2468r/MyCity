@@ -1,0 +1,118 @@
+/* Filter Bar Styles */
+
+.filter_bar
+{
+    position:relative;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    width:100%;
+    height:auto;
+
+    outline: none;
+    margin: none;
+    border: none;
+    padding: none;
+                
+    box-shadow: 0px 10px 30px #cccccc;
+
+    background-color: #ffffff;
+}
+
+.filter
+{
+    height:auto;
+    width: auto;
+
+    outline:none;
+    margin: 20px 5px;
+    border:none;
+    padding:none;
+
+    font-family: 'Alatsi';
+    background-color: inherit;
+}
+
+.filter_bar :first-child
+{
+    margin-left: 100px;
+} 
+
+.filter_bar label
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.type_select .select_option
+{
+    width: 150px;
+
+    outline:none;
+    margin: none;
+    border:none;
+    border: 1px solid #b3b3b3 ;
+    padding:none;
+}
+
+.search_option #name_search
+{
+    width: 150px;
+
+    outline:none;
+    margin: none;
+    border:none;
+    border: 1px solid #b3b3b3 ;
+    padding:none;
+}
+
+/* Styles to display content */
+
+.display_content
+{
+    display:block;
+    width: 100%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    background-image: linear-gradient( to bottom, #661aff, #ffffff );
+}
+
+.s_card
+{
+    float:left;
+    height:240px;
+    width:180px;
+    background-color:white;
+    box-shadow: 2px 2px 5px #8c8c8c;
+    margin: 20px;
+    transition:0.3s;
+}
+
+.s_card:hover
+{
+    box-shadow: 5px 5px 10px #737373;
+}
+
+.s_card img
+{
+    display:block;
+    height: 160px;
+    width:100%;
+    border:none;
+    outline:none;
+}
+
+.s_card .description
+{
+    display:block;
+    height:80px;
+    width:100%;
+    padding-top: 18px;
+    padding-left: 8px;
+    font-size: 17px;
+    color:#4d4d4d;
+}

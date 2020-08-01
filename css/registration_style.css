@@ -1,0 +1,172 @@
+body
+{
+    display:inline;
+}
+
+.left_display
+{
+    float: left;
+    height:45.1em;
+    width:40%;
+
+    margin:none;
+    padding:none;
+    border:none;
+
+    background-image:url("../image/login_bg_image/login_bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.right_display
+{
+    display: block;
+    float:right;
+    height:44em;
+    width:60%;
+
+    margin:none;
+    padding:none;
+    border:none;
+    outline: none;
+    
+    background-color: #ffffff;
+}
+
+.reg_form
+{
+    align-items: center;
+    min-width:400px;
+    width:50%;
+    margin-top: 6em;
+    background:inherit;
+}
+
+.heading
+{
+    display:block;
+    margin-bottom:40px;
+    
+    font-family:'Alatsi';
+    font-size:25px;
+    font-weight: bold;
+    color:  #4c00e6;
+}
+
+::placeholder  /* Firefox */
+{
+    font-family: 'Alatsi';
+    font-size: 15px;
+    color: black;
+    opacity: 0.3;
+    text-align: center; 
+}
+
+:-ms-input-placeholder  /* Internet Explorer 10-11 */
+{ 
+    font-family: 'Alatsi';
+    font-size: 15px;
+    color: black;
+    opacity: 0.3;
+}
+
+::-ms-input-placeholder /* Microsoft Edge */
+{
+    font-family: 'Alatsi';
+    font-size: 15px;
+    color: black;
+    opacity:0.3;
+}
+
+.reg_form input[type="text"], input[type="password"], input[type="tel"]
+{
+    display:block;
+    height:35px;
+    width:55%;
+
+    margin:20px;
+    padding:5px;
+
+    background-color: inherit;
+    border-color: #cccccc;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+    font-family: 'Alatsi';
+    font-size: 15px;
+    text-align: center;
+    transition:0.3s;
+}
+
+.reg_form input[type="text"]:focus, input[type="password"]:focus, input[type="tel"]:focus
+{
+    width:60%;
+    outline: none;
+    border-color: #884dff;
+}
+
+.reg_form #first_name
+{
+    display:inline;
+    width:25%;
+
+    margin-right: 10px;
+}
+
+.reg_form #last_name
+{
+    display:inline;
+    width:25%;
+
+    margin-left: 10px;
+}
+
+.reg_form .r_button
+{
+    display:inline-block;
+    height:40px;
+    width:120px;
+
+    margin-top:25px;
+    padding:5px 7px;
+    border:none;
+    border-radius:20px;
+
+    font-family:'Alatsi';
+    font-size: 18px;
+    background-color:#661aff;
+    color:whitesmoke;
+    box-shadow:3px 3px 5px #999999;
+    transition:0.4s;
+}
+
+.left_button
+{
+    margin-left:21%;
+    float: left; 
+}
+
+.right_button
+{
+    margin-right: 21%;
+    float: right;
+}
+
+.reg_form .r_button:hover
+{
+    background-color:#661aff;
+    box-shadow: 6px 6px 10px #808080;
+}
+
+a
+{
+    color:  #737373;
+    margin-top: 50px;
+    
+    text-decoration: none;
+    font-family:'Alatsi';
+    font-size:16px;
+    font-weight: bold;
+    color:  #4c00e6;  
+}
