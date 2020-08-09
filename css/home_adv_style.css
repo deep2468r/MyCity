@@ -1,0 +1,38 @@
+.display_page
+{
+    display: block;
+    width:100%;
+    height:auto;
+
+    outline: none;
+    margin: none;
+    border: none;
+    padding: none;
+
+    background-image: linear-gradient( to bottom, #661aff, #ffffff );
+}
+
+.adv_slideshow
+{
+    width: 60%;
+    height: 460px; 
+    position: relative;
+}
+
+.sale_img
+{
+    display: none;
+    width: 100%;
+    height: inherit;
+
+    outline: none;
+    margin: none;
+    border: none;
+    padding-top: 30px;
+}
+
+.fade
+{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
